@@ -1,8 +1,11 @@
 #ifndef STUDENTMANAGER_H
 #define STUDENTMANAGER_H
 
-class StudentManager {
+#include <string>
 
+class StudentManager {
+public:
+    void findByName(const std::string& name);
 };
 
 #endif
